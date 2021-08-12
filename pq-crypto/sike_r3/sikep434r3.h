@@ -133,7 +133,8 @@ static __inline unsigned int is_digit_lessthan_ct(const digit_t x, const digit_t
 
 /* Definitions for generic C implementation */
 
-typedef uint64_t uint128_t[2];
+// uint128_t already defined within aws-lc
+//typedef uint64_t uint128_t[2];
 
 /* Digit multiplication */
 #define SIKE_P434_R3_MUL(multiplier, multiplicand, hi, lo)                                    \

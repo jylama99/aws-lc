@@ -1,7 +1,7 @@
 cmake_minimum_required (VERSION 3.0)
 
-include_directories(../../include)
-include_directories(../../crypto)
+include_directories(../include)
+include_directories(../crypto)
 
 
 # get all header and source files
